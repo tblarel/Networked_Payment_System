@@ -19,4 +19,8 @@ Note: Currently the server is not multithreaded and can only be connected to one
 	TcpClient has a wallet id of 1001 and a starting balance of 400.0
 	TcpClient1 had a wallet id of 2000 and a starting balance of 3100.0
 
+
+Known Bugs: 
 	
+	1. Upon connecting to the server, the server checks for any pending transactions and prompts the user for approval of these incoming transactions. The user is currently only able to address one incoming transaction each time they run the programs. 
+
